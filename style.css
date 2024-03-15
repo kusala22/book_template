@@ -1,0 +1,54 @@
+.book-section{
+text-align: center;
+}
+.home-section{
+    background-color: bisque;
+
+}
+.image{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    text-align: center;
+}
+#login-section{
+    text-align: center;
+    background-color: aquamarine;
+    margin: 30px;
+    
+}
+.login-image{
+    width: 70px;
+    height: 70px;
+    
+}
+.register-section{
+    background-color:blueviolet;
+    border-color: black;
+    border-radius: 5%;
+    text-align: center;
+    color: bisque;
+
+}
+h1{
+    color: red;
+}
+p1{
+    color:red;
+}
+.catologue-section{
+    background-color: rgb(242, 170, 194);
+
+}
+.cse-section{
+    background-color: aquamarine;
+}
+.ece-section{
+    background-color: cornflowerblue;
+}
+.eee-section{
+    background-color:burlywood;
+}
+.mech-section{
+    background-color: gold;
+}

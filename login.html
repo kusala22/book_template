@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container"> 
+        <div id="login-section">
+            <img src="https://cdn4.vectorstock.com/i/1000x1000/62/48/green-round-glossy-login-icon-vector-2976248.jpg" class="login-image">
+            <h1 class="heading"> Enter Login details </h1>
+            <form>
+                <label for="Name" >LOGIN ID </label>
+                <input type="text" id="Name" Placeholder="Name" requried></input>
+                <br><br>
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" placeholder="password" requried></input>
+                <br><br>
+    
+                <input type="button" value="Submit" onclick="submit()"> 
+                </input>
+                <input type="button" value="Reset" onclick="reset()"></input>
+            </form>
+        </div>
+    </div>
+        
+    <script>
+      function sumbit() {
+          alert("login detials successfull")
+          
+      };
+      function reset() {
+          alert("Reset your details")
+          
+      };
+      
+    </script>
+    <a href="homepage.html"> back</a>
+</body>
+</html>
